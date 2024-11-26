@@ -21,7 +21,6 @@ def main():
 
     random_selection = random.choices(gojuon, k=20)
 
-    # 出力
     print("ランダムに選ばれた50音:")
     print(" ".join(random_selection))
 

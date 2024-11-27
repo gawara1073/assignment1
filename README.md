@@ -17,19 +17,19 @@
 ### 1. 前提条件
 
 以下の環境が必要です：
-- Python(テスト済みバージョン3.8.10 以上)
+- Python(テスト済みバージョン3.7-3.11)
 - OS: Linux, macOS, Windows
 
 ### 2. 実行手順
 
 ターミナルで以下のコマンドを実行してください：
 
-'python3 random_gojuon.py'
+'python3 random_gojuon'
 
 または、スクリプトに実行権限を付与して直接実行できます:
 
-'chmod +x random_gojuon.py'
-'./random_gojuon.py'
+'chmod +x random_gojuon'
+'./random_gojuon'
 
 ### 3. 実行結果(例)
 

@@ -56,20 +56,31 @@
 
 ## ライセンス
 
-- MITライセンスに基づく著作権情報。
+- このプロジェクトは、MITライセンスに基づいて提供されています。
+- 使用許可
+　　- このソフトウェアは無料で使用でき、コピー、変更、配布、サブライセンス、及び商用利用を含むあらゆる目的で自由に使用することができます。
+- 条件
+    - 再配布する場合、ソースコード及びバイナリ形式のいずれにおいても、著作権表示及びライセンスの全文を含める必要があります。
 - このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 - ©　2024 Ryota Sugawara
 
 ## 参考文献
 
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson1.html#1
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson2.html#1
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html#1
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson4.html
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
+- ロボットシステム学第1回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson1.html#1
+- ロボットシステム学第2回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson2.html#1
+- ロボットシステム学第3回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html#1
+- ロボットシステム学第4回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson4.html
+- ロボットシステム学第5回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
+- ロボットシステム学第6回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html
+- ロボットシステム学第7回資料
+https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
 
 
 ## 作者

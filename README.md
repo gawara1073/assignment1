@@ -60,6 +60,17 @@ gojuon = [
 
 50音以外の文字や記号を出力対象に含めたい場合に、gojuonリストを編集します。
 
+## 参考文献
+
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson1.html#1
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson2.html#1
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html#1
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson4.html
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
+
+
 ## 作者
 
 ### 1. 名前

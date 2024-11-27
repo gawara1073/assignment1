@@ -12,8 +12,8 @@
 
 ## ファイル構成
 
-- `random_gojuon.py`  
-  メインプログラムファイル。
+`random_gojuon.py`  
+メインプログラムファイル。
 
 - `LICENSE`  
   MITライセンスに基づく著作権情報。
@@ -59,6 +59,13 @@ gojuon = [
 
 
 50音以外の文字や記号を出力対象に含めたい場合に、gojuonリストを編集します。
+
+## ライセンス
+
+- MITライセンスに基づく著作権情報。
+- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+    - [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+- ©　2024 Ryota Sugawara
 
 ## 参考文献
 

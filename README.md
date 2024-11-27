@@ -9,7 +9,7 @@
 
 ## ファイル構成
 
-`random_gojuon.py`  
+'random_gojuon.py'
 メインプログラムファイル
 
 ## 使用方法
@@ -24,9 +24,9 @@
 
 ターミナルで以下のコマンドを実行してください：
      
-- 'echo "テスト入力" | python3 random_gojuon
+- 'echo "テスト入力" | python3 random_gojuon'
 
-- 'echo "" | python3 random_gojuon
+- 'echo "" | python3 random_gojuon'
 
 ### 3. 実行結果(例)
 

@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024 Ryota Sugawara <sugawararyot0813@icloud.com>
+# SPDX-License-Identifier: MIT
 
 # テストスクリプトの開始
 echo "Running tests for random_gojuon.py..."

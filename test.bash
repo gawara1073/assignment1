@@ -14,8 +14,8 @@ echo "Output1: $output1"
 echo "Output2: $output2"
 
 # 実際のランダム文字列のみを取得
-random_chars1=$(echo "$output1" | grep "ランダムに選ばれた文字" | cut -d ':' -f 2 | tr -d '\n')
-random_chars2=$(echo "$output2" | grep "ランダムに選ばれた文字" | cut -d ':' -f 2 | tr -d '\n')
+random_chars1=$(echo "$output1" | grep "ランダムに選ばれた文字" | sed 's/ランダムに選ばれた文字: //g')
+random_chars2=$(echo "$output2" | grep "ランダムに選ばれた文字" | sed 's/ランダムに選ばれた文字: //g')
 
 # デバッグ用にランダム文字列を表示
 echo "Extracted Random Characters 1: $random_chars1"
@@ -35,6 +35,7 @@ expected_count=20
 # テスト結果の評価
 if [ "$word_count1" -eq "$expected_count" ] && [ "$word_count2" -eq "$expected_count" ]; then
     echo "Test Passed: Correct number of random characters generated ($expected_count)."
+    exit 0
 else
     echo "Test Failed: Expected $expected_count characters but got $word_count1 and $word_count2."
     exit 1

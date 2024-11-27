@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2024 Ryota Sugawara <sugawararyota0813@icloud.com>
 # SPDX-License-Identifier: MIT
 
+import sys
 import random
 
 def main():
@@ -19,11 +20,14 @@ def main():
         "わ", "を", "ん"
     ]
 
-    random_selection = random.choices(gojuon, k=20)
+    input_date = sys.stdin.read().strip()
+    if input_date:
+        print(f"標準入力を受け取りました:{input_date}")
+    else:
+        print("標準入力がありません。ランダムに選びます。")
 
-    print("ランダムに選ばれた50音:")
-    print(" ".join(random_selection),)
+    random_selection = random.choices(gojuon, k=20)
+    print("ランダムに選ばれた文字:", " ".join(random_selection))
 
 if __name__ == "__main__":
     main()
-

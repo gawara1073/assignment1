@@ -22,7 +22,7 @@ def main():
     random_selection = random.choices(gojuon, k=20)
 
     print("ランダムに選ばれた50音:")
-    print(" ".join(random_selection))
+    print(" ".join(random_selection),)
 
 if __name__ == "__main__":
     main()

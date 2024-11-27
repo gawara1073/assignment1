@@ -30,4 +30,3 @@ fi
 # 正常終了
 echo "All tests passed!"
 exit 0
-

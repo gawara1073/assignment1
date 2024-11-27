@@ -24,12 +24,12 @@
 
 ターミナルで以下のコマンドを実行してください：
 
-python3 random_gojuon.py
+'python3 random_gojuon.py'
 
 または、スクリプトに実行権限を付与して直接実行できます:
 
-chmod +x random_gojuon.py
-./random_gojuon.py
+'chmod +x random_gojuon.py'
+'./random_gojuon.py'
 
 ### 3. 実行結果(例)
 
@@ -40,16 +40,16 @@ chmod +x random_gojuon.py
 
 ### 1. 出力される文字数を変更
 
-random_selection = random.choices(gojuon, k=20)
+'random_selection = random.choices(gojuon, k=20)'
 
 現在、プログラムは50音から20個の文字を選択しています。k=20の部分を編集することで個数の変更が可能です。
 
 ### 2. 50音以外の文字を追加
 
-gojuon = [
+'gojuon = [
     "あ", "い", "う", "え", "お",
     "1", "2", "3", "4", "5"
-]
+]'
 
 
 50音以外の文字や記号を出力対象に含めたい場合に、gojuonリストを編集します。
